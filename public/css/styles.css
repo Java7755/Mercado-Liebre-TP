@@ -16,12 +16,13 @@
 
 header{
     background-color: var(--amarillo);
-    height: 370px;
+    height: auto;
     width: 100%;
     padding-top: 20px;
 }
 .logoprincipal{
-    /* width: 50%; */
+    height: auto;
+    width: auto;
     display: flex;
     justify-content: flex-end;
 }
@@ -56,8 +57,8 @@ header{
 .headertitulo{
     /* padding-right: 50%; */
     display: flex;
-    width: 100%;
-    justify-content: center;
+    /* width: 100%; */
+    justify-content: space-between;
    
 }
 
@@ -183,16 +184,17 @@ section{
 
 .contenedorPadre{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content:flex-start;
+    width: auto;
 }
 .contenedorPadre .contenedorHijo{
     display: flex;
     align-items: center;
-    width: 50%;
-    /* justify-content: flex-start; */
-    /* align-items: center; */
+    width: 100%;
+    justify-content: center;
+
 }
 
 
@@ -207,6 +209,7 @@ article{
 .centerText{
     text-align: center;
     padding-top: 15px;
+
 }
 article p{
     /* background-color: white; */
@@ -245,6 +248,47 @@ h3{
     color: var(--gris_oscuro);
 }
 
+.contenedorNav {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between; /* Distribuir los navs horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  .Nav-1 ul,
+  .Nav-2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  
+  .Nav-1 li,
+  .Nav-2 li {
+    margin-block-end: 1em;
+  }
+  
+  .Nav-1 a,
+  .Nav-2 a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .Nav-2 {
+    margin-right: 50px;
+    margin-left: auto; /* Empujar Nav-2 hacia la derecha */
+    display: flex; /* Alineación horizontal dentro de Nav-2 */
+    align-items: center; /* Centrar verticalmente dentro de Nav-2 */
+  }
+
+footer{
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+  
 /* Mobile */
 @media (max-width: 480px){
     header{
@@ -257,6 +301,9 @@ h3{
         transform: rotate(-90deg);
         transition: 
         transform, 0.5s;
+    }
+    .Nav-1 ul, .Nav-2 ul{
+        display: none;
     }
 }
 /* Extra small devices */
@@ -271,6 +318,9 @@ h3{
         transform: rotate(-90deg);
         transition: 
         transform, 0.5s;
+    }
+    .Nav-1 ul, .Nav-2 ul{
+        display: none;
     }
 }
 /*  Small tablets */
