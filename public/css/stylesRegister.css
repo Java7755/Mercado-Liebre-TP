@@ -21,6 +21,13 @@ body{
 form{
     width: 80%;
     margin: auto;
+<<<<<<< HEAD
+=======
+    /* margin-top: 100px; */
+    margin-bottom: 50px;
+    /* border-radius: 24px; */
+    /* padding: 20px 30px; */
+>>>>>>> d0ab6a26d758b287ac04300010ba19f25f294784
     font-family: sans-serif;
 }
 

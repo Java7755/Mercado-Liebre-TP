@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/css/headerregister.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/stylesRegister.css">
     <meta charset="UTF-8">
@@ -8,40 +9,9 @@
     <title>Document</title>
 </head>
 <body>
+    
     <header>
         <div class="contenedorPadre">
-<<<<<<< HEAD
-            <div class="contenedorHijo">
-                <div class="logoprincipal">
-                    <img src="/images/logo-mercado-liebre.svg" alt="">
-                </div>
-                <div class="positionbar">
-                    <form action=""><input type="search" placeholder="Buscar productos, marcas" class="navigationBar"></form>  
-                </div>
-            </div>
-                
-                <div class="headertitulo">
-                    <p class="centerText"><img src="/images/hand-holding-dollar-solid_1.svg" alt="" class="logos" >Comprá en cuotas y sin tarjeta de crédito</p>
-                </div>
-        </div>
-                <div class="contenedorNav">
-                    <nav class="Nav-1">
-                        <ul>
-                            <li><a href="">Ofertas</a></li>
-                            <li><a href="">Tiendas Oficiales</a></li>
-                            <li><a href="">Vender</a></li>
-                            <li><a href="">Ayuda</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="Nav-2">   
-                        <ul>
-                            <li><a href="">Creá tu cuenta </a><img src="/images/IdCard.svg" alt="" class="logos"></li>
-                            <li><a href="/views/login">ingresá </a><img src="/images/flechita.svg" alt="" class="logos"></li>
-                            <li><a href="">Mis compras </a><img src="/images/basket-shopping-solid.svg" alt="" class="logos"></li>
-                        </ul>
-                    </nav>
-                </div>
-=======
         <div class="contenedorHijo">
         <div class="logoprincipal">
             <img src="/images/logo-mercado-liebre.svg" alt="" class="contenedorHijo">
@@ -74,98 +44,29 @@
                 </ul>
             </nav>
         </div>
->>>>>>> d0ab6a26d758b287ac04300010ba19f25f294784
 
         <section class="centered-section">
             <div class="headerlogos">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
 
-<<<<<<< HEAD
-=======
             
->>>>>>> d0ab6a26d758b287ac04300010ba19f25f294784
             </div>
         </section>
 
     </header>
     <main>
         <form action="">
-            <div><h1>Registro de usuario</h1></div>
-            <div>
-                <label class="sub-title" for="">Nombre y apellido</label>
-                <input class="loginbar" type="text" id="name_surname" name="name_surname" placeholder="Nombre y apellido" required>
-            </div>
             <div>
                 <label class="sub-title" for="">Nombre de usuari@</label>
                 <input class="loginbar" type="text" id="user_name" name="user_name" placeholder="Nombre de usuari@" required>
             </div>
-            <div>
-                <label class="sub-title" for="">E-mail</label>
-                <input class="loginbar" type="email" name="E-mail" id="" placeholder="E-mail" required>
-            </div>
-            <div>
-                <label class="sub-title" for="">Fecha de nacimiento</label>
-                <input class="loginbar" style="padding-right: 10px;" type="date" id="date_of_birth" name="date_of_birth" required>
-            </div>
-            <div>
-                <label class="sub-title" for="">Domicilio</label>
-                <input class="loginbar" type="text" id="adress" name="adress" placeholder="Domicilio" required>
-            </div>
-            <div class="space">
-                <div class="space">
-                    <label class="sub-title" for="perfil_usuario">Perfil del usuario:</label>
-                </div>
-                    <span class="space">
-                        <label for="Comprador">Comprador</label>
-                            <input type="radio" name="perfil_usuario" value="Comprador">
-                    </span>
-                    <span class="space">
-                        <label for="Comprador">Vendedor</label>
-                        <input type="radio" name="perfil_usuario" value="Vendedor">
-                    </span>
-            </div>
-            <div class="space">
-                <div class="space">
-                    <label class="sub-title" for="categorias_interes">Intereses:</label><br>
-                </div>
-                    <div class="space">
-                        <input type="checkbox" id="electro" name="categorias[]" value="Electro">
-                        <label for="electro">Electro</label><br>
-                    </div>
-                    <div class="space">
-                        <input type="checkbox" id="moda" name="categorias[]" value="Moda">
-                        <label for="moda">Moda</label><br>
-                    </div>
-                    <div class="space">
-                        <input type="checkbox" id="hogar" name="categorias[]" value="Hogar">
-                        <label for="hogar">Hogar</label><br>
-                    </div>
-                    <div class="space">
-                        <input type="checkbox" id="jugueteria" name="categorias[]" value="Juguetería">
-                        <label for="jugueteria">Juguetería</label><br>
-                    </div> 
-                    <div class="space">
-                        <input type="checkbox" id="vida_sana" name="categorias[]" value="Vida sana">
-                        <label for="vida_sana">Vida Sana</label><br>
-                    </div>
-                </div>
-        <div>
-            <label class="sub-title" for="">Foto de usuario</label>
-            <input class="space" type="file" id="user_photo" name="user_photo" required>
-        </div>
+            
         <div>
             <label class="sub-title" for="">Contraseña</label>
             <input class="loginbar" type="password" id="password" name="password" placeholder="Contraseña" required>
         </div>
-        <div>
-            <label class="sub-title" for="">Confirmar contraseña</label>
-            <input class="loginbar" type="password" id="re_password" name="re_password" placeholder="Confirmar contraseña" required>
-        </div>
-        <div class="buttonpadre">
-            <div class="buttonhijo">
-                <input class="button" style="width: 40%;" type="submit" value="Enviar">
-                <input class="button" style="width: 40%;" type="reset" value="Borrar">
-            </div>
+        <div >
+            <input class="button" type="submit" value="Enviar">
         </div>
     </form>
     </main>

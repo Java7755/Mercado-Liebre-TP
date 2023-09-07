@@ -14,6 +14,29 @@
     font-family: sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+header{
+    background-color: var(--amarillo);
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+}
+.logoprincipal{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.navigationBar{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding-left: 10px;
+    
+}
+>>>>>>> d0ab6a26d758b287ac04300010ba19f25f294784
 
 
 
@@ -31,6 +54,16 @@
     width: 17px;
     margin-bottom: -3px;
 }
+<<<<<<< HEAD
+=======
+.headertitulo{
+    /* padding-right: 50%; */
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+   
+}
+>>>>>>> d0ab6a26d758b287ac04300010ba19f25f294784
 
 .headerlogos svg path{
     fill: var(--gris_claro);
@@ -152,8 +185,17 @@ section{
  width: 100%;
 }
 
+<<<<<<< HEAD
 header{
     background-color: var(--amarillo);
+=======
+.contenedorPadre{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content:flex-start;
+    width: auto;
+>>>>>>> d0ab6a26d758b287ac04300010ba19f25f294784
 }
 /* /////////////////////////////////////////////////////////////////////////////////// */
 /* /////////////////////////////////////////////////////////////////////////////////// */
@@ -162,6 +204,7 @@ header{
     display: flex;
     align-items: center;
     width: 100%;
+<<<<<<< HEAD
     padding: 20px;
 }
 .positionbar{
@@ -172,6 +215,10 @@ width: 50%;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+=======
+    justify-content: center;
+
+>>>>>>> d0ab6a26d758b287ac04300010ba19f25f294784
 }
 
 .logoprincipal {
@@ -206,6 +253,15 @@ article{
     flex-direction: column;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
+
+.centerText{
+    text-align: center;
+    padding-top: 15px;
+
+}
+>>>>>>> d0ab6a26d758b287ac04300010ba19f25f294784
 article p{
     /* background-color: white; */
     width: 360px;
@@ -300,10 +356,13 @@ footer{
     .Nav-1 ul, .Nav-2 ul{
         display: none;
     }
+<<<<<<< HEAD
     .contenedorPadre{
         display: flex;
         flex-direction: column;
     }
+=======
+>>>>>>> d0ab6a26d758b287ac04300010ba19f25f294784
 }
 /* Extra small devices */
 @media (min-width: 481px) and (max-width: 767px){
@@ -321,10 +380,13 @@ footer{
     .Nav-1 ul, .Nav-2 ul{
         display: none;
     }
+<<<<<<< HEAD
     .contenedorPadre{
         display: flex;
         flex-direction: column;
     }
+=======
+>>>>>>> d0ab6a26d758b287ac04300010ba19f25f294784
 }
 /*  Small tablets */
 @media (min-width: 768px) and (max-width: 991px){
